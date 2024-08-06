@@ -1,0 +1,96 @@
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Centered heading */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+/* Form container styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input and select styling */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Alert styling for success or error messages */
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.alert.success {
+    background-color: #28a745; /* Green for success */
+}
+
+.alert.error {
+    background-color: #dc3545; /* Red for error */
+}
+
+/* Back link styling */
+a.back-link {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}
